@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ASSIGNMENT 8 </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <script src="./script.js"></script>
+
+    <form action="" method="get">
+
+        <!-- <h3 align="center"> NAME </h3>  -->
+     
+        <br> 
+
+        <div class="container"> <br>
+            
+     
+            <label for="first_name"> <b> First Name </b> </label> 
+            <input class="input" id="first_name" name="first_name" type="text" placeholder="first_name" value="" > 
+            <span id="error"></span><br> 
+     
+            <label for="last_name"> <b> Last Name </b> </label> 
+            <input class="input" id="last_name" name="last_name" type="text" placeholder="last_name" value="" >
+            <span id="error1"></span><br>  <br>
+     
+     
+         </div> <br>
+     
+         <div class="container"> <br>
+             <label for="phone_number"> <b> Phone Number </b> </label> <br>
+             <input class="input" id="phone_number" name="phone_number" type="number" size="10" placeholder="phone_number" value=""  >
+             <span id="number_error"></span> <br> 
+     
+         </div> <br>
+     
+         <div class="container"> <br>
+     
+             <label for="email"> <b> EmailID </b> </label> <br>
+             <input class="input" id="email" name="email" type="email" placeholder="email" value="" > <span id="email_error"></span><br> 
+            
+     
+         </div> <br>
+     
+         <div class="container"> <br>
+     
+             <label for="pass"> <b> Password </b> </label> <br>
+             <input class="input" id="pass" name="password" type="password" placeholder="password" value=""><span id="pass_error" ></span> <br> 
+     
+         </div> <br> <br> 
+
+         <span class="checkbox">
+            <!-- I agree to terms and conditions &nbsp;&nbsp; -->
+            <label for="terms"> <b>  I agree to the given terms and conditions </b> </label> 
+            <input onclick="checkbox()" class="input" id="terms" type="checkbox" value="" required>
+         </span> <br> <br> <br> 
+     
+        <span id="submit"> <input class="input" id="button" onclick="validation()" value="submit" type="button" >  </input> </span>
+    
+
+    </form>
+
+    
+</body>
+</html>

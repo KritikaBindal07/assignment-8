@@ -1,0 +1,93 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.container{
+   display: flex;
+   width: 30%;
+   margin: auto;
+   flex-direction: column;
+   font-size: large;
+   background-color:rgba(0,0,255,0.12)
+   
+   
+}
+
+div{
+    border: solid 2px saddlebrown;
+    margin: 10px 10px 10px 10px;
+
+    
+}
+
+
+
+h3{
+   color: white;
+}
+
+label{
+    align-self: center;
+    color:white;
+}
+
+.checkbox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: large;
+}
+
+.input{
+    border: solid black 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#submit{
+    display: flex;
+    justify-content: center;
+}
+
+#error{
+    background:pink;
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#error1{
+    background:pink;
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#number_error{
+    background:pink;
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#email_error{
+    background:pink;
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+#pass_error{
+    background:pink;
+    color: red; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
