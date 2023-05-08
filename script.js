@@ -1,12 +1,15 @@
 a= document.getElementsByTagName("input")
 console.log(a)
 
+var validRegix = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+    let passw = /^(?=.*\d)(?=.*[A-Z]).{8,}$/;
+
 
 function validation(){
 
-    
 
-    if(first_name.value != ""  && last_name.value !="" && email.value !="" && pass.value !="" && phone_number.value != "" && terms.value == "agree" ){
+    if(first_name.value != ""  && last_name.value !="" && email.value !="" && email.value.match(validRegix) && pass.value !="" && pass.value.match(passw) && phone_number.value != "" && terms.value == "agree" ){
 
         error.innerHTML= ""
         error1.innerHTML= ""
@@ -20,7 +23,9 @@ function validation(){
         })
        
         alert("form submitted successfully")
-        button.type= "submit"
+
+        button.type="submit"
+        
 
         
     }
