@@ -101,39 +101,6 @@ function validation(){
     }
 }
 
-// pattern="(?=.*\d)(?=.*[A-Z]).{8,}"
-
-// if(pass.value.match(pattern)){
-//     pass_error.innerHTML=""
-
-// }
-// else{
-//     pass_error.innerHTML = " Password must contains one uppercase character and atleast one numeric value" 
-
-// }
-
-    // pass= document.getElementById("pass")
-    // pass_error= document.getElementById("pass_error")
-
-    // if(pass.value.length < 8){
-    //     pass_error.innerHTML = "Password must be of atleast 8 characters"
-    // }
-    // else{
-    //     pass_error.innerHTML =""
-
-    // }
-
-    // //(?=.*\d)(?=.*[a-z]).{8,}
-
-    // let pattern = "^(?=.*\d)(?=.*[A-Z]).{8,}"
-
-    // if(pass.value.match(pattern)){
-    //     pass_error.innerHTML=""
-
-    // }
-    // else{
-    //     pass_error.innerHTML += " Password must contains one uppercase character and atleast one numeric value" 
-    // }
 
 
 function validEmail(){
