@@ -8,6 +8,8 @@ var validRegix = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9
 
 function validation(){
 
+    a= document.querySelectorAll(".input")
+
 
     if(first_name.value != ""  && last_name.value !="" && email.value !="" && email.value.match(validRegix) && pass.value !="" && pass.value.match(passw) && phone_number.value != "" && terms.value == "agree" ){
 
@@ -24,7 +26,7 @@ function validation(){
        
         alert("form submitted successfully")
 
-        button.type="submit"
+       
         
 
         
